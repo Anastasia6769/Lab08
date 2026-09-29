@@ -120,19 +120,19 @@ Console.WriteLine($"Всего введено имен:{count}");
 // Console.WriteLine($"Задачи: №{assigned[0]} и №{assigned[1]}"); 
 //Индивидуальный вариант
 //Вариант 2
-// int sum = 0;
-// Console.WriteLine("Введите целые числа (для завершение введите 0):");
+int sum = 0;
+Console.WriteLine("Введите целые числа (для завершение введите 0):");
 
-// while (true)
-// {
-//     int number = int.Parse(Console.ReadLine());
-//     if (number == 0)
-//         break;
+while (true)
+{
+    int number = int.Parse(Console.ReadLine());
+    if (number == 0)
+        break;
 
-//     if (number > 0)
-//         sum += number;
-// }
-// Console.WriteLine($"Сумма положительных чисел {sum}:");
+    if (number > 0)
+        sum += number;
+}
+Console.WriteLine($"Сумма положительных чисел {sum}:");
 //Вариант 3
 int N = 10;
 Console.WriteLine($"Таблица квадратов от 1 до {N}:");
